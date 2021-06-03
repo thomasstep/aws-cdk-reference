@@ -1,0 +1,20 @@
+{
+  "name": "aws-cdk-reference",
+  "version": "0.1.0",
+  "bin": {
+    "aws-cdk-reference": "bin/aws-cdk-reference.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.107.0",
+    "aws-cdk": "1.107.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.107.0"
+  }
+}

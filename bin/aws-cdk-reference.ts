@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-
-const cdk = require('@aws-cdk/core');
-const { AwsCdkReferenceStack } = require('../lib/aws-cdk-reference-stack');
+import 'source-map-support/register';
+import * as cdk from 'aws-cdk-lib';
+import { AwsCdkReferenceStack } from '../lib/aws-cdk-reference-stack';
 
 const app = new cdk.App();
 new AwsCdkReferenceStack(app, 'AwsCdkReferenceStack', {
